@@ -1,0 +1,30 @@
+.topnavigation{
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr .5fr .5fr .5fr;
+    grid-template-rows: 1fr;
+}
+
+.shows_schedule{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "image info button"
+}
+
+.showsimg1{
+    grid-area: image;
+}
+.showsinfo1{
+    grid-area: info;
+}
+.showsbutton1{
+    grid-area: button;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
